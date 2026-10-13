@@ -24,7 +24,6 @@ A full-stack team and project task management application built with the MERN st
 team-task-manager/
 ├── client/          # React frontend
 ├── server/          # Express REST API
-├── Screenshots/     # Application screenshots
 ├── render.yaml      # Render frontend deployment configuration
 └── README.md
 ```
@@ -74,10 +73,6 @@ The Vite development server will print the local URL in the terminal.
 
 The frontend currently uses the deployed API URL configured in `client/src/api/axios.js`. To use a local backend, change the `baseURL` to `http://localhost:5000/api`.
 
-## Screenshots
-
-Screenshots of the dashboard, login, project creation, and task creation are available in the `Screenshots/` directory.
-
 ## Notes
 
-This repository is a portfolio project. Review and test authorization rules before using it with real users or sensitive data.
+This is a portfolio project. Review and test authorization rules before using it with real users or sensitive data.
